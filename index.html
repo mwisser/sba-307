@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matthew Wisser</title>
     <style>
     .container {  
         display: flex;
@@ -16,40 +16,58 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        background-color: #949292
+     }
+     .container3 {  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+     }
+
+     .container3:hover{
+        font-size: 30px;
      }
      
      .box {
-        border: .1px solid;
         width: 25%;
         height: 500px;
         text-align: center;
         font-size: 30px;
      }
+        
+        .box:hover {background-color: #08aaeb;}
      .box2 {
-        border: .1px solid;
         width: 50%;
         height: 500px;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
      }
+
+       .box2:hover {background-color: #08aaeb;}
+
      .box3 {
-        border: .1px solid;
         width: 25%;
         height: 500px;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
      }
+
+       .box3:hover {background-color: #08aaeb;}
+
      .box4 {
-        border: .1px solid;
+
         width: 100%;
         height: 500px;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
+        background-color: #949292
      }
 
      .techlogo {
         margin-right: auto;
      }
+
 
      nav > ul {
             display: flex;
@@ -65,6 +83,25 @@
             padding: 10px 30px;
             text-decoration: none;
             color: black;
+        }
+        #hours {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        #hours td, #hours th {
+          border: 1px solid #ffffff;
+          padding: 8px;
+        }
+        
+        #hours tr:hover {background-color: #08aaeb;}
+        
+        #hours th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #08aaeb;
+          color: white;
         }
      </style>
 </head>
@@ -112,9 +149,8 @@
         <nav>
             <ul>
                 <li class="link1"><a href="index.html">Home</a></li>
-                <li class="link2"><a href="contact.html">Contact</a></li>
-                <li class="link3"><a href="login.html">Log In</a></li>
-                <li class="link4"><a href="register.html">Register</a></li>
+                <li class="link2"><a href="login.html">Log In</a></li>
+                <li class="link3"><a href="register.html">Register</a></li>
             </ul>
         </nav>
     </div>
@@ -124,35 +160,86 @@
 <br />
 <div class="container2">
 <div class="box">
-        
+        <img src="profile.jpg" alt="Profile" width="300" height="300">
+        <br />
+        <p>MATTHEW WISSER</p>
+        <p>DEVELOPER</p>
 </div>
 <br />
 <br />     
 
 <div class="box2">
+        <h2>BIOGRAPHY</h2>
+        <p style="text-align:left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatum distinctio voluptas possimus ea odit, voluptates aliquid sequi inventore amet quam minus veritatis nobis sit iusto ipsum, numquam repudiandae assumenda.</p>
+        <p style="text-align:left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatum distinctio voluptas possimus ea odit, voluptates aliquid sequi inventore amet quam minus veritatis nobis sit iusto ipsum, numquam repudiandae assumenda.</p>
+        <p style="text-align:left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatum distinctio voluptas possimus ea odit, voluptates aliquid sequi inventore amet quam minus veritatis nobis sit iusto ipsum, numquam repudiandae assumenda.</p>
+        <p style="text-align:left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatum distinctio voluptas possimus ea odit, voluptates aliquid sequi inventore amet quam minus veritatis nobis sit iusto ipsum, numquam repudiandae assumenda.</p>
         
 </div>
 <br />
 <br />
 
 <div class="box3">
-        
+        <h2>SERVICES</h2>
+        <p style="text-align:left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque magnam officiis fugit a perferendis reprehenderit soluta, praesentium eligendi ab minima rerum nam debitis excepturi eos suscipit rem eum fuga eaque?</p>
+        <img src="technology.gif" alt="Technology" width="400" height="250">
 </div>
 </div>
-<br />
 <br />
 <div class="box4">
-        
+    <br />
+    <div class="rotate"><h2>HOURS OF OPERATION</h2></div>
+    <div>
+        <table id="hours">
+            <tr>
+              <th>Day</th>
+              <th>Open</th>
+              <th>Close</th>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>10AM</td>
+              <td>3PM</td>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>9AM</td>
+              <td>5PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>9AM</td>
+              <td>5PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9AM</td>
+              <td>5PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>9AM</td>
+              <td>5PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9AM</td>
+              <td>5PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10AM</td>
+              <td>3PM</td>
+            </tr>
+          </table>
+        </div>
 </div>
 <br />
 <br />
 
 
-
-
-
-<div class="container2">
-   
+<div class="container3">
+        
             <img src="address.png" alt="Bootstrap" width="60" height="60">
             1234 Address St.
             Phoenix, AZ 85353
@@ -160,7 +247,6 @@
             <img src="gmail.png" alt="Bootstrap" width="60" height="60">
             email@email.com
           
-         
             <img src="phone.png" alt="Bootstrap" width="60" height="60">
             (602)123-4567
           
